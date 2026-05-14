@@ -7,5 +7,5 @@ fruit=veg
 
 // console.log(fruit,veg)
 
-let change-name="hello";
-console.log(change-name)
+// let change-name="hello";
+// console.log(change-name)
