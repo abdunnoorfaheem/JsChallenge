@@ -1,11 +1,100 @@
 // দুটি সংখ্যার মান অদলবদল (Swap) করুন (তৃতীয় ভেরিয়েবল ব্যবহার করে এবং ব্যবহার না করে)
-// ।একটি বছর (Year) ইনপুট নিয়ে সেটি লিপ ইয়ার (Leap Year) কি না তা বের করুন।
+// let a=10;
+// let b=20;
+// let c;
+
+// c=a;
+// a=b;
+// b=c;
+
+// console.log("a ",a,"b ",b);
+
+// [a,b]=[b,a]
+
+// console.log(a,b)
+
+// ।একটি বছর (Year) ইনপুট নিয়ে সেটি লিপ ইয়ার (Leap Year) কি না তা বের 
+
+// let inputYear=prompt("Enter a year :");
+
+// inputYear=Number(inputYear)
+
+// if((inputYear%4==0 && inputYear%100 !=0) || (inputYear%400==0)){
+// alert("Leap Year");
+// }
+// else{
+//     alert("Not a leap Year")
+// }
+
+
 // একটি সংখ্যা পজিটিভ, নেগেটিভ নাকি শূন্য (Zero) তা কন্ডিশন দিয়ে চেক করুন।
+
+// let inputNumber=prompt("Enter a Number:");
+// inputNumber=Number(inputNumber);
+
+// if(inputNumber === 0){
+//     alert("Zero");
+// }
+// else if(inputNumber < 0){
+//     alert("Negative Number");
+// }
+// else{
+//     alert("Positive Number")
+// }
+
 // তিনটি সংখ্যার মধ্যে সবচেয়ে বড় সংখ্যাটি খুঁজে বের করার লজিক লিখুন।
+// let numberOne=Number(prompt("Enter First Number : "));
+// let numberTwo=Number(prompt("Enter Second Number : "));
+// let numberThree=Number(prompt("Enter Third Number : "));
+
+// if(numberOne > numberTwo && numberOne > numberThree){
+//     console.log("Number One is Big",numberOne);
+// }
+// else if (numberTwo > numberOne && numberTwo > numberThree){
+//     console.log("Number Two is Big",numberTwo);
+// }
+// else{
+//     console.log("Number Three is Big",numberThree);
+// }
 // একটি ইনপুট ক্যারেক্টার (Character) ভাওয়েল (Vowel) নাকি কনসোনেন্ট (Consonant) তা পরীক্ষা করুন।
 
+// let inputChar=prompt("Enter a character :");
+
+// inputChar=inputChar.toLocaleLowerCase();
+// if(inputChar=="a" || inputChar=="e" || inputChar=="i" || inputChar=="o" || inputChar=="u"){
+// console.log("Vowel");
+// }
+// else{
+//     console.log("Consonant");
+// }
+
+//১ থেকে ১০০ পর্যন্ত সব জোড় (Even) সংখ্যাগুলো লুপ ব্যবহার করে প্রিন্ট করুন।
+
+// let number=100;
+
+
+
+// for(let i=1;i<=100;i++){
+
+//     if(i%2==0){
+//         console.log(i);
+//     }
+    
+// }
+
+//লুপ ব্যবহার করে ১ থেকে ৫০ পর্যন্ত সংখ্যাগুলোর যোগফল বের করুন।
+
+// let n=50;
+// let sum=0;
+
+// for(let i= 1 ; i <=  50;i++ ){
+//     sum=sum+i
+    
+// }
+// console.log(sum)
+
 /*
-১ থেকে ১০০ পর্যন্ত সব জোড় (Even) সংখ্যাগুলো লুপ ব্যবহার করে প্রিন্ট করুন।লুপ ব্যবহার করে ১ থেকে ৫০ পর্যন্ত সংখ্যাগুলোর যোগফল বের করুন।যেকোনো একটি নির্দিষ্ট সংখ্যার নামতা (Multiplication Table) লুপ দিয়ে তৈরি করুন।একটি সংখ্যার ফ্যাক্টোরিয়াল (Factorial) বের করার প্রোগ্রাম লিখুন (যেমন: 5! = 120)।একটি সংখ্যা প্রাইম বা মৌলিক সংখ্যা (Prime Number) কি না তা লুপ দিয়ে যাচাই করুন।ফিবোনাচ্চি সিরিজ (Fibonacci Series) এর প্রথম ১০টি সংখ্যা লুপ দিয়ে জেনারেট করুন (0, 1, 1, 2, 3...)।
+যেকোনো একটি নির্দিষ্ট সংখ্যার নামতা (Multiplication Table) লুপ দিয়ে তৈরি করুন।একটি সংখ্যার ফ্যাক্টোরিয়াল (Factorial) বের করার প্রোগ্রাম লিখুন (যেমন: 5! = 120)।একটি সংখ্যা প্রাইম বা মৌলিক সংখ্যা (Prime Number) কি না তা লুপ দিয়ে যাচাই করুন।ফিবোনাচ্চি সিরিজ (Fibonacci Series) এর প্রথম ১০টি সংখ্যা লুপ দিয়ে জেনারেট করুন (0, 1, 1, 2, 3...)।
 
 */
 
