@@ -94,13 +94,55 @@
 // console.log(sum)
 
 /*
-যেকোনো একটি নির্দিষ্ট সংখ্যার নামতা (Multiplication Table) লুপ দিয়ে তৈরি করুন।একটি সংখ্যার ফ্যাক্টোরিয়াল (Factorial) বের করার প্রোগ্রাম লিখুন (যেমন: 5! = 120)।একটি সংখ্যা প্রাইম বা মৌলিক সংখ্যা (Prime Number) কি না তা লুপ দিয়ে যাচাই করুন।ফিবোনাচ্চি সিরিজ (Fibonacci Series) এর প্রথম ১০টি সংখ্যা লুপ দিয়ে জেনারেট করুন (0, 1, 1, 2, 3...)।
+যেকোনো একটি নির্দিষ্ট সংখ্যার নামতা (Multiplication Table) লুপ দিয়ে তৈরি করুন।
 
 */
+
+// let n=10;
+// for(let i=1;i<=10;i++){
+//     let r=n*i;
+//     console.log(`${n} x ${i}=${r}`);
+    
+// }
+
+/*
+একটি সংখ্যার ফ্যাক্টোরিয়াল (Factorial) বের করার প্রোগ্রাম লিখুন (যেমন: 5! = 120)
+*/ 
+
+
+
+function findFactorial(n){
+
+    if(n>=0){
+        let result =1;
+
+        for(let i=1;i<=n;i++){
+            result=i*result;
+        }
+        return result;
+    }
+    
+
+}
+console.log(findFactorial(10));
+
+
+
+
+/*
+একটি সংখ্যা প্রাইম বা মৌলিক সংখ্যা (Prime Number) কি না তা লুপ দিয়ে যাচাই করুন।
+*/ 
+
+/*ফিবোনাচ্চি সিরিজ (Fibonacci Series) এর প্রথম ১০টি সংখ্যা লুপ দিয়ে জেনারেট করুন (0, 1, 1, 2, 3...)।*/ 
 
 /*
 একটি স্ট্রিংকে সম্পূর্ণ উল্টো (Reverse) করে প্রিন্ট করুন (যেমন: "hello" হয়ে যাবে "olleh")।একটি স্ট্রিং প্যালিনড্রোম (Palindrome) কি না তা চেক করুন (যেমন: "madam" উল্টালেও "madam" থাকে)।একটি বাক্যের (Sentence) মধ্যে মোট কতটি ভাওয়েল (Vowel) আছে তা গণনা করুন।একটি বড় স্ট্রিংয়ের প্রতিটি শব্দের প্রথম অক্ষর ক্যাপিটাল (Capitalize) করার লজিক লিখুন।একটি দীর্ঘ স্ট্রিং থেকে নির্দিষ্ট একটি শব্দ (Word) কতবার আছে তা খুঁজে বের করুন।
 */
+
+// let str="hello";
+
+// console.log(str);
+
 
 
 /*
@@ -162,23 +204,23 @@ target = 3
     
 // }
 
-let arr=[5,-7,8,-11,12];
-let a=[];
-let b=[];
+// let arr=[5,-7,8,-11,12];
+// let a=[];
+// let b=[];
 
 
-for(let i=0;i<arr.length;i++){
-    // console.log(arr[i]);
-    if(arr[i]<0 ){
-        // console.log(arr[i]);
+// for(let i=0;i<arr.length;i++){
+//     // console.log(arr[i]);
+//     if(arr[i]<0 ){
+//         // console.log(arr[i]);
 
-        a.push(arr[i]);
+//         a.push(arr[i]);
         
-    }else{
-        // console.log("Positive",arr[i]);
-        b.push(arr[i]);
+//     }else{
+//         // console.log("Positive",arr[i]);
+//         b.push(arr[i]);
         
-    }
-}
+//     }
+// }
 
-console.log(a,b);
+// console.log(a,b);
